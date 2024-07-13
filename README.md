@@ -1,6 +1,6 @@
 # Tasks Application
 
-![Tasks Application](https://via.placeholder.com/1200x400.png?text=Tasks+Application)
+![Tasks Application](https://ibb.co/3WxJJ9s)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -52,14 +52,14 @@ git clone https://github.com/your-username/tasks-application.git
 cd tasks-application
 Front-end Setup
 sh
-نسخ الكود
+
 cd front-end
 npm install
 # or
 yarn install
 Back-end Setup
 sh
-نسخ الكود
+
 cd ../back-end
 npm install
 # or
@@ -68,21 +68,21 @@ Environment Variables
 Create a .env file in the back-end directory and add the following variables:
 
 env
-نسخ الكود
+
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 PORT=5000
 Usage
 Running the Front-end
 sh
-نسخ الكود
+
 cd front-end
 npm run dev
 # or
 yarn dev
 Running the Back-end
 sh
-نسخ الكود
+
 cd back-end
 npm start
 # or
@@ -92,7 +92,7 @@ Open your browser and go to http://localhost:3000 for the front-end and http://l
 
 Project Structure
 lua
-نسخ الكود
+
 tasks-application/
 ├── front-end/
 │   ├── public/
