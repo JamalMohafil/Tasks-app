@@ -1,0 +1,49 @@
+{
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "file-type": "^19.0.0",
+    "fs": "^0.0.1-security",
+    "gifwrap": "^0.10.1",
+    "http": "^0.0.1-security",
+    "jimp": "^0.22.12",
+    "jsonwebtoken": "^9.0.2",
+    "lang-detector": "^1.0.6",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.3",
+    "path": "^0.12.7",
+    "rimraf": "^5.0.8",
+    "sharp": "^0.33.4",
+    "socket.io": "^4.7.5",
+    "uuid": "^10.0.0",
+    "ws": "^8.17.1"
+  },
+  "name": "tasks-backend",
+  "version": "1.0.0",
+  "description": "Tasks Application Manangement Back-End",
+  "main": "index.js",
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/ws": "^8.5.10"
+  }
+}

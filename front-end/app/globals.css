@@ -1,0 +1,90 @@
+/* tailwind.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+.x-no {
+  overflow-x:hidden !important;
+ 
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* Additional custom styles */
+.loader {
+  border: 2px solid #8a2be2;
+  border-radius: 50%;
+  border-top: 2px solid transparent;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Example of custom font-face */
+@font-face {
+  font-family: "din-next-arabic";
+  src: url('../fonts/DINNEXT.ttf');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;  
+}
+
+/* Utility classes (tailwind's `@layer utilities` equivalent) */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Example of responsive utility class */
+  .line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+
+  @media (max-width: 280px) {
+    .line-clamp {
+      -webkit-line-clamp: 4;
+    }
+  }
+
+  @media (max-height: 700px) {
+    .height-sidebar {
+      height: 100vh !important;
+      overflow: scroll !important;
+    }
+  }
+}
