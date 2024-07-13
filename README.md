@@ -1,18 +1,22 @@
 # Tasks Application
 
+![Tasks Application](https://via.placeholder.com/1200x400.png?text=Tasks+Application)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## Introduction
-Tasks Application is a comprehensive solution for managing tasks, creating workspaces, and enabling seamless communication through chat functionalities. Designed to enhance productivity and collaboration, this application is perfect for teams of all sizes.
+Welcome to the **Tasks Application** - a comprehensive solution for managing tasks, creating workspaces, and enabling seamless communication through real-time chat functionalities. Designed to enhance productivity and collaboration, this application is perfect for teams of all sizes.
+
+This project was developed entirely by me, leveraging modern web technologies to provide a robust and user-friendly experience.
 
 ## Features
 - **Task Management**: Create, assign, and track tasks with ease.
@@ -21,6 +25,19 @@ Tasks Application is a comprehensive solution for managing tasks, creating works
 - **User Authentication**: Secure login and registration.
 - **Notifications**: Stay updated with real-time notifications.
 - **Responsive Design**: Fully responsive and optimized for all devices.
+
+## Tech Stack
+The Tasks Application is built using a modern and efficient tech stack:
+- **Front-end**: 
+  - [Next.js 14](https://nextjs.org/)
+  - [Tailwind CSS](https://tailwindcss.com/) for styling
+  - Context API for state management
+- **Back-end**:
+  - [Node.js](https://nodejs.org/)
+  - [Express.js](https://expressjs.com/)
+  - [Socket.io](https://socket.io/) for real-time chat functionality
+- **Database**:
+  - [MongoDB](https://www.mongodb.com/) for data storage
 
 ## Installation
 
@@ -90,19 +107,6 @@ tasks-application/
     ├── .env
     ├── package.json
     └── ...
-Technologies Used
-Front-end:
-React.js
-Next.js
-Tailwind CSS
-Socket.io-client
-Back-end:
-Node.js
-Express.js
-MongoDB
-Mongoose
-JWT (JSON Web Token)
-Socket.io
 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code follows the project's coding standards and conventions.
 
@@ -116,5 +120,4 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-If you have any questions or need further assistance, feel free to contact me at your-email@example.com.
-
+If you have any questions or need further assistance, feel free to contact me at jamalgoving@gmail.com
