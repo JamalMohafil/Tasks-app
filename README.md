@@ -1,6 +1,6 @@
 # Tasks Application
 
-![Tasks Application](https://ibb.co/3WxJJ9s)
+![Tasks Application](https://i.ibb.co/3WxJJ9s/tasks-application.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
